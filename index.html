@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form Task</title>
+</head>
+<h1>FeedBack Form Task</h1>
+<fieldset>
+<legend><h4>Contact information</h4></legend>
+<form method="post" action="somelink.php">
+<table>
+<tr>
+    <th>First name:</th>
+    <td><input type="text" name="firstname" placeholder="First name" required></td>
+    <th>Preferred contact method:</th>
+</tr>
+<tr>
+    <th>Last name:</th>
+    <td><input type="text" name="lastname" placeholder="Last name" required></td>
+    <td><input type="checkbox" name="emailoption"><strong> Email</strong></td>
+</tr>
+<tr>
+    <th>Email:</th>
+    <td><input type="email" name="email" placeholder="youremail@example.com" required></td>
+    <td><input type="checkbox" name="telephoneoption"><strong> Telephone</strong></td>
+</tr>
+<tr>
+    <th>Telephone:</th>
+    <td><input type="tel" name="telephone" placeholder="your number" required></td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+    <legend><h4>Feedback</h4></legend>
+    <table>
+     <tr><td><strong>Message subject: </strong>  <input type="text" name="subject" placeholder="Message subject" required></td></tr>
+     <tr><td ><textarea name="message" rows="15" cols="70" required ></textarea></td></tr>
+     <tr><td><strong>Attach a file: </strong><input type="file" name="file"></td></tr>
+    </table> 
+     <hr>
+     <input type="submit" name="submit" value="Send" >
+    </form>
+    
+</fieldset>  
+
+   
+
+
+<body>
+    
+</body>
+</html>
